@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-futuristic-background_23-2148413498.jpg");
 }
 
 .App-logo {
@@ -14,14 +15,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-futuristic-background_23-2148413498.jpg");
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 1px white solid;
+}
+
+h2 {
+  margin: 1px;
+}
+
+.Headshot {
+  height: 30%;
+  width: 30%;
+}
+
+.Projects {
+  margin-bottom: 30px;
 }
 
 .App-link {
@@ -35,4 +50,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  height: 70px;
+  border: 1px black solid;
+  background-color: bisque;
+  font-size: 30px;
 }
