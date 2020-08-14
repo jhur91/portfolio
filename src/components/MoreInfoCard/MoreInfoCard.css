@@ -1,0 +1,21 @@
+.MoreInfoCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  border: 3px white solid;
+  color: black;
+  background-color: rgb(241, 241, 241);
+}
+
+.MoreAboutMe {
+  color: black;
+}
+
+a {
+  color: blue;
+}
+
+.workflowImage {
+
+}

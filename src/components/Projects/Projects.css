@@ -1,9 +1,16 @@
+h1 {
+  color: black;
+}
+
+.projects {
+  background-color:rgb(255, 252, 252);
+}
+
 .Projects-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-
 }
 
 img {
